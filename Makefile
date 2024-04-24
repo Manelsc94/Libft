@@ -11,7 +11,7 @@
 # **************************************************************************** #
 
 NAME	=	libft.a
-CC	=	gcc
+CC	=	cc
 CFLAGS	=	-Wall -Wextra -Werror
 RM	=	rm -f
 LIBC	=	ar -rcs
@@ -53,5 +53,3 @@ fclean:	clean
 		$(RM) $(NAME) $(bonus)
 
 re:	fclean all
-
-.PHONY:	all bonus clean fclean re .c.o
