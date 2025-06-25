@@ -4,6 +4,7 @@
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
 ![42](https://img.shields.io/badge/42-Project-00BABC?style=for-the-badge)
+![Score](https://img.shields.io/badge/Score-125%25-brightgreen?style=for-the-badge)
 
 ## 📋 Project Overview
 
