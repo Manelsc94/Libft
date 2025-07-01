@@ -28,7 +28,7 @@ Libft is the first project in the 42 school curriculum, designed to create a cus
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/libft.git
+   git clone https://github.com/Manelsc94/libft.git
    cd libft
    ```
 
@@ -124,7 +124,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## 👤 Author
 
 **your-username**  
-GitHub: [your-username](https://github.com/your-username)
+GitHub: [Manelsc94](https://github.com/your-username)
 
 ---
 
