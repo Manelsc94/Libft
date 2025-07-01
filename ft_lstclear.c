@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+//Clears and frees a linked list
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
 	t_list	*current;
@@ -39,11 +40,11 @@ int main(void)
 
 	list = NULL;
 	t_list *node1 = malloc(sizeof(t_list));
-	node1->content = strdup("Node 1");
+	node1->content = ft_strdup("Node 1");
 	node1->next = NULL;
 
 	t_list *node2 = malloc(sizeof(t_list));
-	node2->content = strdup("Node 2");
+	node2->content = ft_strdup("Node 2");
 	node2->next = NULL;
 
 	node1->next = node2;

@@ -70,6 +70,8 @@ void	*ft_array(int i, char **array)
 	return (NULL);
 }
 
+/*Splits a string into multiple different strings 
+using a specified delimiter as its seperator*/
 char	**ft_split(char const *s, char c)
 {
 	int		i;
@@ -106,7 +108,7 @@ int main(void)
 	char c;
 	int i;
 
-	s = "This is a test string for split function";
+	s = "This is a test string for the ft_split function";
 	c = ' ';
 	char **split_array = ft_split(s, c);
 

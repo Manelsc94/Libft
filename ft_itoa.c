@@ -27,6 +27,7 @@ static int	number_size(int num)
 	return (size);
 }
 
+//Converts an int into a char
 char	*ft_itoa(int n)
 {
 	char	*ptr;

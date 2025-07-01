@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+//Duplicates a given string
 char	*ft_strdup(const char *src)
 {
 	char	*dst;

@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+//Moves 'n' bytes of momory from 'src' to 'dst'
 void	*ft_memmove(void *dst, const void *src, size_t n)
 {
 	unsigned char	*dst_tmp;
@@ -42,6 +43,7 @@ int main(void)
 	char src[] = "This is the source string.";
 	char dst[50];
 
+	printf("Before copying strng: %s\n", dst);
 	ft_memmove(dst, src, ft_strlen(src) + 1);
 	printf("Copied string: %s\n", dst);
 	return (0);

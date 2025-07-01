@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+/*Copies a string from a 'src' buffer to a 'dst' buffer, ensuring that 
+the 'dst' buffer is null-terminated and does not exceed the specified size*/
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
 	size_t	src_len;

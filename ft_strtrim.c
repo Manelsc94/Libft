@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+//Removes specified chars from the beginning and end of a given string
 char	*ft_strtrim(char const *s1, char const *set)
 {
 	int		start;

@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+//Deletes a single node from a linked list
 void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {
 	if (!lst || !del)
@@ -37,7 +38,7 @@ int main(void)
 		return (1);
 	}
 
-	node->content = strdup("Hello");
+	node->content = ft_strdup("Hello");
 	node->next = NULL;
 
 	printf("Deleting node with content: %s\n", (char *)(node->content));

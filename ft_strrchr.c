@@ -11,8 +11,8 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
+//Searches for the last occurence of a char 'c' in the string 'str'
 char	*ft_strrchr(const char *str, int c)
 {
 	const char	*last_occurrence;

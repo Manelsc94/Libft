@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+/*Concatenates the source string 'src' to the destination string 'dst'
+ up to a specified size*/
 size_t	ft_strlcat(char *dst, char *src, unsigned int size)
 {
 	size_t	srclen;

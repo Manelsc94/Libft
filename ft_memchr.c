@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+//Searches for the first ocurrence of a char in a block of memory
 void	*ft_memchr(const void *str, int c, size_t n)
 {
 	if (n == 0)

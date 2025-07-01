@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+/*Searches for the first occurence of a substring 'str2' 
+within a string 'str1', up to a specified length*/
 char	*ft_strnstr(char *str1, char *str2, size_t len)
 {
 	size_t	i;

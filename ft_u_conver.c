@@ -1,29 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
+/*   ft_u_conver.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mde-agui <mde-agui@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/04/10 19:17:01 by mde-agui          #+#    #+#             */
-/*   Updated: 2024/04/10 19:17:01 by mde-agui         ###   ########.fr       */
+/*   Created: 2024/04/30 19:27:24 by marvin            #+#    #+#             */
+/*   Updated: 2024/04/30 19:27:24 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-//Writes a char to a specific file descriptor
-void	ft_putchar_fd(char c, int fd)
+//Passes an unsigned int as an argument in ft_printf 
+void	ft_u_conver(unsigned int n, int *count)
 {
-	write(fd, &c, 1);
+	if (n >= 10)
+		ft_d_conver(n / 10, count);
+	ft_c_conver(n % 10 + 48, count);
 }
-
-/*
-int main(void)
-{
-	char c = 'A';
-	int fd = 1; // STDOUT_FILENO
-
-	ft_putchar_fd(c, fd);
-	return (0);
-}*/

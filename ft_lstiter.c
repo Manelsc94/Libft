@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+//Iterates over a linked list and applies a given function to each element
 void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
 	if (!lst || !f)

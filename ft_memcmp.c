@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+//It compares two blocks of memory byte by byte
 int	ft_memcmp(const void *str1, const void *str2, size_t n)
 {
 	const unsigned char	*s1;

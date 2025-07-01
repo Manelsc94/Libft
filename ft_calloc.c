@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+//Allocates mamory for an array of elements
 void	*ft_calloc(size_t num, size_t size)
 {
 	void	*ptr;

@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+/*Applies a function to each element of a 
+linked list and creates a new list with the results*/
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	t_list	*new_list;
@@ -36,6 +38,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	}
 	return (new_list);
 }
+
 /*
 void *add_prefix(void *content)
 {
@@ -44,8 +47,8 @@ void *add_prefix(void *content)
 
 	prefix = "New ";
 	new_content = malloc(ft_strlen(prefix) + ft_strlen((char *)content) + 1);
-	strcpy(new_content, prefix);
-	strcat(new_content, (char *)content);
+	ft_strlcpy(new_content, prefix, 14);
+	ft_strlcat(new_content, (char *)content, 14);
 	return new_content;
 }
 

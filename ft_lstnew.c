@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+//Creates a new node for a linked list
 t_list	*ft_lstnew(void *content)
 {
 	t_list	*new_node;

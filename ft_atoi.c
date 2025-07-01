@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+//Converts chars to ints
 int	ft_atoi(const char *str)
 {
 	int		i;

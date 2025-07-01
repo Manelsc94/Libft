@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+//Compares up to 'n' chars of two strings
 int	ft_strncmp(const char *str1, const char *str2, size_t n)
 {
 	if (n == 0)

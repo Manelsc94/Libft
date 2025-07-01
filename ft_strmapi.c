@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+/*Applies a given function to each char of a string, 
+creating a new string with the result*/
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	unsigned int	i;

@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+//Adds an element to the front of a linked list
 void	ft_lstadd_front(t_list **lst, t_list *new)
 {
 	if (lst && new)

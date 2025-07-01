@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+//Checks if a char is a digit
 int	ft_isdigit(int c)
 {
 	if (c >= 48 && c <= 57)

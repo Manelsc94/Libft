@@ -1,35 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_s_conver.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mde-agui <mde-agui@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/04/10 19:17:50 by mde-agui          #+#    #+#             */
-/*   Updated: 2024/04/10 19:17:50 by mde-agui         ###   ########.fr       */
+/*   Created: 2024/04/30 18:28:16 by marvin            #+#    #+#             */
+/*   Updated: 2024/04/30 18:28:16 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-//Gives the length of a string
-int	ft_strlen(const char *str)
+//Passes a string as an argument in ft_printf
+void	ft_s_conver(const char *str, int *count)
 {
 	size_t	i;
 
 	i = 0;
+	if (str == NULL)
+	{
+		write(1, "(null)", 6);
+		(*count) += 6;
+		return ;
+	}
 	while (str[i] != '\0')
+	{
+		ft_c_conver(str[i], count);
 		i++;
-	return (i);
+	}
 }
-
-/*
-int	main(void)
-{
-	char	str[] = "ola";
-	int	len;
-
-	len = ft_strlen(str);
-	printf("The string has %d characters\n", len);
-	return (0);
-}*/

@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+/*Sets the first 'n' bytes of the memoyr area pointed
+ to by 'str' to the specified value 'c'*/
 void	*ft_memset(void *str, int c, size_t n)
 {
 	char	*byte;
@@ -33,7 +35,7 @@ int main(void)
 {
 	char buffer[20];
 
-	ft_memset(buffer, 'X', 10);
+	ft_memset(buffer, 'X', 14);
 	printf("Buffer after memset: %s\n", buffer);
 	return (0);
 }*/

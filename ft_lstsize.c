@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+//Calculates the size of a linked list
 int	ft_lstsize(t_list *lst)
 {
 	int	i;

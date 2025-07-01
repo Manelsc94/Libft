@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+//Sets a specified number of bytes in a memory area to zero
 void	ft_bzero(void *s, size_t n)
 {
 	char	*str;
