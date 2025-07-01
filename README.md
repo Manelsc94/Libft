@@ -123,7 +123,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 👤 Author
 
-**your-username**  
+**Manelsc94**  
 GitHub: [Manelsc94](https://github.com/your-username)
 
 ---
